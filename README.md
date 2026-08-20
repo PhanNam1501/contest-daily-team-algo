@@ -1,1 +1,1 @@
-Contest algorithm daily
+Contest algorithm

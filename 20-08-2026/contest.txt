@@ -1,0 +1,20 @@
+Easy: (Array)
+https://leetcode.com/problems/two-sum/description/
+https://leetcode.com/problems/design-hashmap/description/
+https://leetcode.com/problems/longest-common-prefix/description/ (prefix-sum easy: optional)
+
+
+Medium: (Prefix-sum)
+https://cses.fi/problemset/task/1660
+https://leetcode.com/problems/subarray-product-less-than-k/description/
+https://cses.fi/problemset/task/1662
+
+(optional)
+Bài toán: Thiết kế bộ phát hiện nội dung có thể sắp xếp thành Palindrome (DNA Substring Anagram Palindrome Filter)
+Bối cảnh thực tế Một hệ thống xử lý chuỗi gen (hoặc bộ lọc từ khóa độc hại) nhận một chuỗi ký tự dài N
+(chỉ gồm các ký tự chữ cái thường từ a đến z). Hệ thống cần phản hồi hàng triệu truy vấn dạng:
+can_form_palindrome(L, R): Các ký tự trong đoạn con [L, R] sau khi hoán vị (anagram) có thể ghép lại thành một chuỗi 
+đối xứng (Palindrome) hoàn chỉnh hay không?
+
+Bài toán yêu cầu phản hồi mỗi truy vấn trong O(1) mà không tốn nhiều bộ nhớ.
+(1 dãy đối xứng có ít nhất 1 chữ cái có số lần xuất hiện là 1)
