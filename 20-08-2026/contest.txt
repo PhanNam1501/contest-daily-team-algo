@@ -18,3 +18,18 @@ can_form_palindrome(L, R): Các ký tự trong đoạn con [L, R] sau khi hoán 
 
 Bài toán yêu cầu phản hồi mỗi truy vấn trong O(1) mà không tốn nhiều bộ nhớ.
 (1 dãy đối xứng có ít nhất 1 chữ cái có số lần xuất hiện là 1)
+(abababababc) (abab)
+
+// abba: nums abab
+// pre[0] = 1 | 1<<int(nums[i]-'a') : 1<<2 =  1 * 2^2
+// 1 -> 11 > 01 -> 00 
+// pre[r] | pre[l] 
+// 1 ^ ... ^1: n chẵn -> 0
+// 0 .... l ..... r
+
+// 000000010000: mask & (mask-1)
+
+
+
+
+// 00001 << 2: 0000100
